@@ -1,0 +1,215 @@
+body{
+    background-color: #3D087B;
+}
+.main_box{
+    height: 800px;
+    display: flex;
+    justify-content: center;
+}
+.clock{
+    width: 160px;
+    height: 60px;
+    margin-top: 20px;
+}
+.time_table{
+    width: 550px;
+    height: 350px;
+    background-color: white;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.wakeup,.lunch,.nap,.night{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.text{
+    color: #3D087B;
+    font-size: 17px;
+    font-family: 'Manrope', sans-serif;
+}
+select{
+    height: 46px;
+    width: 270px;
+    padding: 10px;
+    border: 1px solid #EDEDED;
+    border-radius: 4px;
+    color: #3D087BDE;
+    font-size: 13px;
+    letter-spacing: 1.3px;
+}
+.time_list{
+    position: absolute;
+    left: 630px;
+}
+.line{
+    margin-left: 35px;
+}
+.main_box3{
+    width: 525px;
+    height: 70px;
+    color: #ffffff;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255,0.23);
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 800;
+    margin-top: 15px;
+    font-family:  sans-serif;
+}
+button{
+    width: 250px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(110deg,#6E54EC 0%,#CB52F8 35%,#FC5EFF 75%,#F1A7C5 100%);
+    margin-top: 20px;
+    cursor: pointer;
+    color: white;
+    font-size: 22px;
+    font-family: sans-serif;
+   
+}
+.display_time_box{
+    width: 230px;
+    height: 125px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255,0.23);
+    color: #F25CFE;
+    padding: 5px;
+    line-height: 15px;
+    margin-top: 10px;
+    font-family:sans-serif;
+}
+.button_box{
+    width: 550px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.right_time_box{
+    margin-top: 30px;
+    margin-left: 20px;
+    position: relative;
+}
+.box1{
+    width: 510px;
+    height: 120px;
+    background-color: white;
+    border-radius: 10px;
+    color: #3D087B;
+    font-family: Arial, Helvetica, sans-serif sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.box2{
+    width: 420px;
+    height: 120px;
+    background-color: rgba(255,255,255,0.71);
+    border-radius: 10px;
+    position: absolute;
+    top: 15px;
+    left: 60px;
+    z-index: -1;
+}
+.box3{
+    width: 350px;
+    height: 120px;
+    background-color: rgba(255,255,255,0.22);
+    border-radius: 10px;
+    position: absolute;
+    top: 26px;
+    left: 60px;  
+    z-index: -2;
+}
+#time{
+    font-size: 22px;
+}
+#hr{
+    position: absolute;
+    top: 25px;
+    left: 135px;
+    font-size: 35px;
+    color: #8A11BF;
+}
+#min{
+    position: absolute;
+    top: 25px;
+    left: 225px;
+    font-size: 36px;
+    color: #8A11BF;
+}
+#sec{
+    position: absolute;
+    top: 25px;
+    left: 325px;
+    font-size: 36px;
+    color: #8A11BF;
+}
+#colon1{
+    font-size: 50px;
+    position: absolute;
+    top: 25px;
+    left: 188px;
+    color: #8A11BF;
+}
+#colon2{
+    font-size: 50px;
+    position: absolute;
+    top: 25px;
+    left: 290px;
+    color: #8A11BF;
+}
+#hrs{
+    position: absolute;
+    top: 75px;
+    left: 125px;
+    color: #8A11BF;
+}
+#mins{
+    position: absolute;
+    top: 75px;
+    left: 230px;
+    color: #8A11BF;
+}
+#secs{
+    position: absolute;
+    top: 75px;
+    left: 330px;
+    color: #8A11BF;
+}
+#ampm{
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    position: absolute;
+    left: 420px;
+}
+.msg_box{
+    width: 500px;
+    height: 100px;
+    margin-top: 40px;
+    background-color: white;
+    color: #8E53F0;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: 1000;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 15px;
+    padding-top: 40px;
+}
+
+#img{
+    height: 335px;
+    width: 510px;
+    margin-top: 15px;
+    border-radius: 10px;
+background-image: url(./Component\ 30\ –\ 1\ \(1\).svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
